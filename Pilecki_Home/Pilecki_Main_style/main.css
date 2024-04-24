@@ -1,0 +1,59 @@
+body {
+  padding: 0%;
+  border: 0px;
+  margin: 0px;
+}
+.header {
+  background-color: #ffff;
+  display: flex;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+}
+.menu {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.menu_element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.openMenuButton {
+  background-color: transparent;
+  border: 0;
+  display: flex;
+}
+.open_button {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 0;
+}
+.folders {
+  display: flex;
+  flex-direction: column;
+}
+.folders > div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.footer {
+  background-color: #660000;
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 2vw;
+}
+.footer > :first-child {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
